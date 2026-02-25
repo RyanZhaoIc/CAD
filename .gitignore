@@ -32,4 +32,3 @@ data/CIFAR100/
 data/FLOWER102/
 data/PET37/
 data/FMNIST/
-.gitignore
