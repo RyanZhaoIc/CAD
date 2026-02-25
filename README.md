@@ -1,10 +1,11 @@
+# Class-specific Augmentation based Disentanglement (CAD) for ID-PLL
 This is the implementation of Mitigating Instance Entanglement in Instance-Dependent Partial Label Learning [CVPR 2026].
 
 ## Requirements
-Python 3.8.13, 
-numpy 1.22.3, 
-torch 1.10.0,
-torchvision 0.11.0,
+Python 3.8.13, \
+numpy 1.22.3, \
+torch 1.10.0, \
+torchvision 0.11.0, \
 diffusers 0.28.2.
 
 
