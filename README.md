@@ -1,7 +1,7 @@
 # CAD
 This is the implementation of Mitigating Instance Entanglement in Instance-Dependent Partial Label Learning [CVPR 2026].
 
-## Requirements: 
+## Requirements
 Python 3.8.13, 
 numpy 1.22.3, 
 torch 1.10.0,
@@ -13,7 +13,7 @@ diffusers 0.28.2.
 ### data preparing
 To synthesize candidate labels, the annotation model weights should be downloaded from [this link](https://drive.google.com/drive/folders/1N6ZASfKQZkIu9t5l91ojzhUSVQZgRRgX?usp=drive_link) and place them into the `./partial_models/weights/` directory.
 
-### demo
+### Demo
 First, generate class-specific augmentations:
 ```sh
 python -u csaugmentation.py --dataset cifar10
